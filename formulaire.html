@@ -1,0 +1,32 @@
+<!-- form.html -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forulaire</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <form action="traitement.php" method="POST">
+    <div>
+        <h3><u><b>FORMULAIRE DE RESERVATION</b></u></h3>
+        <label>Nom:</label>
+        <input type="text" name="nom" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="text" name="email" required>
+        <br><br>
+        <label>Motdepasse:</label>
+        <input type="text" name="password" required>
+        <br><br>
+        <label>Role:</label>
+        <input type="text" name="role" required>
+        <br><br>
+        <input type="submit" value="Envoyer"><br><br>
+        <input type="reset" value="Supprimer">
+    </div>
+ </form>
+ </body>
+ </html>
+
